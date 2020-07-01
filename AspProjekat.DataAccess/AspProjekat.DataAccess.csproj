@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200629095239_added Configuration for blogCategory.cs" />
+    <Compile Remove="Migrations\20200629095239_added Configuration for blogCategory.Designer.cs" />
+    <Compile Remove="Migrations\20200630122727_added user id column.cs" />
+    <Compile Remove="Migrations\20200630122727_added user id column.Designer.cs" />
+    <Compile Remove="Migrations\20200630131205_added userId column in tabel blogs.cs" />
+    <Compile Remove="Migrations\20200630131205_added userId column in tabel blogs.Designer.cs" />
+    <Compile Remove="Migrations\20200630131330_added userId column.cs" />
+    <Compile Remove="Migrations\20200630131330_added userId column.Designer.cs" />
+    <Compile Remove="Migrations\20200701130315_Image table.cs" />
+    <Compile Remove="Migrations\20200701130315_Image table.Designer.cs" />
+    <Compile Remove="Migrations\20200701130551_added Image table.cs" />
+    <Compile Remove="Migrations\20200701130551_added Image table.Designer.cs" />
+    <Compile Remove="Migrations\20200701131344_Image table.cs" />
+    <Compile Remove="Migrations\20200701131344_Image table.Designer.cs" />
+    <Compile Remove="Migrations\20200701131619_Image table.cs" />
+    <Compile Remove="Migrations\20200701131619_Image table.Designer.cs" />
+    <Compile Remove="Migrations\20200701131723_Added Image table.cs" />
+    <Compile Remove="Migrations\20200701131723_Added Image table.Designer.cs" />
+    <Compile Remove="Migrations\20200701132012_New Image table.cs" />
+    <Compile Remove="Migrations\20200701132012_New Image table.Designer.cs" />
+    <Compile Remove="Migrations\20200701132405_Image.cs" />
+    <Compile Remove="Migrations\20200701132405_Image.Designer.cs" />
+    <Compile Remove="Migrations\20200701132615_Image table.cs" />
+    <Compile Remove="Migrations\20200701132615_Image table.Designer.cs" />
+    <Compile Remove="Migrations\20200701133209_Image table.cs" />
+    <Compile Remove="Migrations\20200701133209_Image table.Designer.cs" />
+    <Compile Remove="Migrations\20200701133532_Image migration.cs" />
+    <Compile Remove="Migrations\20200701133532_Image migration.Designer.cs" />
+    <Compile Remove="Migrations\20200701133919_Image migration.cs" />
+    <Compile Remove="Migrations\20200701133919_Image migration.Designer.cs" />
+    <Compile Remove="Migrations\20200701134529_Image migration.cs" />
+    <Compile Remove="Migrations\20200701134529_Image migration.Designer.cs" />
+    <Compile Remove="Migrations\20200701134707_Image migration.cs" />
+    <Compile Remove="Migrations\20200701134707_Image migration.Designer.cs" />
+    <Compile Remove="Migrations\20200701134838_Image migration.cs" />
+    <Compile Remove="Migrations\20200701134838_Image migration.Designer.cs" />
+    <Compile Remove="Migrations\20200701140111_Image table.cs" />
+    <Compile Remove="Migrations\20200701140111_Image table.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspProjekat.Domain\AspProjekat.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
